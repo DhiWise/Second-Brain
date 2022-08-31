@@ -1,0 +1,43 @@
+name: secondbrain_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  cupertino_icons: ^1.0.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  permission_handler: ^10.0.0
+  file_picker: ^4.6.1
+  fluttertoast: ^8.0.9
+  supabase: ^0.3.6
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Noticia Text
+      fonts: 
+        - asset: assets/fonts/NoticiaTextRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 400
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
