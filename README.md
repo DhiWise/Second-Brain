@@ -162,8 +162,8 @@ dart format .
 
 
 ### Get more about app?
-- Documetation - 
-- Medium blog- 
+- Documetation - https://www.dhiwise.com/use-case/notion-second-brain
+- Medium blog- https://medium.com/@kajalmorker1/3e67dc7d6f02
 
 
 
