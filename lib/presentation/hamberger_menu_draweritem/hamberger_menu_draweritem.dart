@@ -272,14 +272,14 @@ class HambergerMenuDraweritem extends StatelessWidget {
                                           alignment: Alignment.centerLeft,
                                           child: GestureDetector(
                                               onTap: () {
-                                                onTapTxtCalender();
+                                                onTapTxtcalendar();
                                               },
                                               child: Padding(
                                                   padding: getPadding(
                                                       left: 40,
                                                       top: 23,
                                                       right: 40),
-                                                  child: Text("lbl_calender".tr,
+                                                  child: Text("lbl_calendar".tr,
                                                       overflow:
                                                           TextOverflow.ellipsis,
                                                       textAlign: TextAlign.left,
@@ -466,7 +466,7 @@ class HambergerMenuDraweritem extends StatelessWidget {
   onTapTxtDashboards() {
     Get.toNamed(AppRoutes.mainScreen);
   }
-  onTapTxtCalender() {
+  onTapTxtcalendar() {
     Get.defaultDialog(
         onConfirm: () => Get.back(),
         title: "Alert",

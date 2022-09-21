@@ -1,8 +1,8 @@
 
 import 'package:secondbrain_app/presentation/notes_screen/notes_screen.dart';
 import 'package:secondbrain_app/presentation/notes_screen/binding/notes_binding.dart';
-import 'package:secondbrain_app/presentation/calenderapp_screen/calenderapp_screen.dart';
-import 'package:secondbrain_app/presentation/calenderapp_screen/binding/calenderapp_binding.dart';
+import 'package:secondbrain_app/presentation/calendarapp_screen/calendarapp_screen.dart';
+import 'package:secondbrain_app/presentation/calendarapp_screen/binding/calendarapp_binding.dart';
 import 'package:secondbrain_app/presentation/login_screen/login_screen.dart';
 import 'package:secondbrain_app/presentation/login_screen/binding/login_binding.dart';
 import 'package:secondbrain_app/presentation/insert_screen/insert_screen.dart';
@@ -26,11 +26,11 @@ import 'package:secondbrain_app/presentation/app_navigation_screen/binding/app_n
 import 'package:get/get.dart';
 
 class AppRoutes {
-  static String calenderScreen = '/calender_screen';
+  static String calendarScreen = '/calendar_screen';
 
   static String notesScreen = '/notes_screen';
 
-  static String calenderappScreen = '/calenderapp_screen';
+  static String calendarappScreen = '/calendarapp_screen';
 
   static String loginScreen = '/login_screen';
 
@@ -63,10 +63,10 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: calenderappScreen,
-      page: () => CalenderappScreen(),
+      name: calendarappScreen,
+      page: () => CalendarappScreen(),
       bindings: [
-        CalenderappBinding(),
+        CalendarappBinding(),
       ],
     ),
     GetPage(

@@ -62,7 +62,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                       children: [
                                         GestureDetector(
                                             onTap: () {
-                                              onTapCalender();
+                                              onTapcalendar();
                                             },
                                             child: Container(
                                                 width:
@@ -87,7 +87,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "lbl_calender"
+                                                                  "lbl_calendar"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -164,7 +164,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapCalenderApp();
+                                              onTapcalendarApp();
                                             },
                                             child: Container(
                                                 width:
@@ -189,7 +189,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "lbl_calenderapp"
+                                                                  "lbl_calendarapp"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -676,16 +676,16 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                 ]))));
   }
 
-  onTapCalender() {
-    Get.toNamed(AppRoutes.calenderScreen);
+  onTapcalendar() {
+    Get.toNamed(AppRoutes.calendarScreen);
   }
 
   onTapNotes() {
     Get.toNamed(AppRoutes.notesScreen);
   }
 
-  onTapCalenderApp() {
-    Get.toNamed(AppRoutes.calenderappScreen);
+  onTapcalendarApp() {
+    Get.toNamed(AppRoutes.calendarappScreen);
   }
 
   onTapLogin() {
