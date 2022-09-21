@@ -174,12 +174,6 @@ After successful build, your application structure should look like this:
 
 ```
 
-  
-
-.
-
-  
-
 ├── android - contains files and folders required for running the application on an Android operating system.
 
   
@@ -259,7 +253,6 @@ After successful build, your application structure should look like this:
 └── theme - contains app theme and decoration classes
 
   
-
 ```
 
   
@@ -278,13 +271,7 @@ After successful build, your application structure should look like this:
   
 
 ```
-
-  
-
 dart format .
-
-  
-
 ```
 
 ### How to run
